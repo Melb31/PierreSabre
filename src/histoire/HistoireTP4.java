@@ -15,7 +15,8 @@ public class HistoireTP4 {
 
 		Commercant Marco= new Commercant("Marco",15);
 		Ronin Roro=new Ronin("Roro", "shochu", 100 );
-		Roro.donner(Marco);
+		Yakuza YakuLN= new Yakuza("Yaku le noir", "bierre", 230, "Furry");
+		Roro.provoquer(YakuLN);
 	}
 
 }
