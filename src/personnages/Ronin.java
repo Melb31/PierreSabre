@@ -13,7 +13,7 @@ public class Ronin extends Humain {
 		perdreArgent(argentDonne);
 		parler( beneficiaire.getNom()+" prend ces "+ argentDonne +" sous");
 		beneficiaire.recevoir(argentDonne);
-		
+		 
 	}
 	
 	public void provoquer(Yakuza adversaire) {
