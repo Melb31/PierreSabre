@@ -1,7 +1,5 @@
 package personnages;
 
-import com.sun.java.util.jar.pack.Package.Class.Method;
-
 public class Yakuza extends Humain{
 	private int reputation;
 	private String clan;
@@ -44,9 +42,12 @@ public class Yakuza extends Humain{
 		
 	}
 	
-	public void DireBonjour() {
-		DireBonjour()
-	}
+	 @Override
+	public void direBonjour(){
+		
+		sePresenter();
+		parler("Mon clan est celui de "+ clan + ".");
+	} 
 
 
 }

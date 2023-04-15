@@ -27,8 +27,12 @@ public class Humain {
 		System.out.println("("+ nom +"):"+texte);
 	}
 	
-	public void direBonjour() {
+	protected void sePresenter() {
 		parler("Bonjour !, Je m'appelle "+nom+" et j'aime boire du" +boissonPref);
+	}
+	
+	public void direBonjour() {
+		sePresenter();
 	}
 	public void boire() {
 		parler("Mmmm, un bon verre de "+boissonPref+" ! GLOUPS !");
